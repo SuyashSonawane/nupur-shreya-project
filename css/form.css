@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.heading-form h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding-top:5vh;
+}
+.input-field{
+   
+    height: 10vh;
+  
+    width: 70%;
+    margin: 3vh 15vw
+}
+.input-field input{
+    font-size: 0.8em;
+    line-height: 2
+}
+.name{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.mobile{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.mail{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top:10vh; 
+
+}
+.address{
+    
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.address textarea{
+    
+}
+.gender{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.gender input{
+    font-size: 2em
+}
+.hobbies{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.dob{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+.submit{
+    margin-top:10vh; 
+   padding: 1vh 2vw;
+   margin-bottom:5vh 
+}

@@ -1,0 +1,56 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="../css/form.css">
+<link rel="shortcut icon" href="http://www.pccoepune.com/images/PCCOE_LOGO.jpg" type="image/x-icon">
+</head>
+<body>
+<div class="conatiner">
+    <div class="heading-form">
+        <h1>Form for registration</h1>
+    </div>
+    <div class="main-form">
+      
+        <div class="name input-field">
+            Name <input type="text" placeholder="Enter name here"  id="name"  required>
+        </div>
+        <div class="address input-field">
+                Address <br><textarea placeholder="Enter address here" id="address"  cols='50 ' rows='5'required></textarea>
+        </div>
+        <div class="mail input-field">
+                Mail <input type="email" placeholder="Enter Email here"  id="email" required>
+        </div>
+        <div class="mobile input-field">
+                Mobile No <input type="text" placeholder="Enter Mobile number here" id="mobile"  maxlength="11">
+        </div>
+        <div class="dob input-field">
+                Date of Birth <input type="text" placeholder="DD/MM/YYYY"  id="dob" required>
+        </div>
+        <div class="gender input-field">
+                Gender: Male <input type="radio" name="gender" value="Male"> / Female <input type="radio" name="gender" value="Female">
+        </div>
+        <div class="hobbies input-field">
+                Hobbies : <br>
+                <textarea cols="30" rows="5" id="hobbies"></textarea>
+                
+        </div>
+        <center>
+            <input type="reset" value="Reset" class="submit">&nbsp;&nbsp;
+            <input type="submit" value="Submit Form" class="submit" onclick="addinfo()">
+        
+        </center>
+
+        
+
+    </div>
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.4.0.min.js"
+  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  crossorigin="anonymous"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+<script src="../js/main.js"></script>
+</body>
+
+</html>

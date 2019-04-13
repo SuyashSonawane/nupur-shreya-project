@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    margin-top: 0vh;
+}
+.list{
+    padding-left: 2vw;
+
+}
+img{
+    height: 5em
+}
+.submit{
+    margin-top:10vh; 
+   padding: 1vh 2vw;
+   margin-bottom:5vh 
+}
