@@ -41,25 +41,25 @@ let hobbies=$('#hobbies').val()
     }
   }
 
-  const showdata=()=>{
-    firebase.database().ref('/data').on('value', function(snapshot) {
-      let itemarr=snapshotToArray(snapshot)
-      let i=0
-      for(i=0;i<itemarr.length;i++){
+//   const showdata=()=>{
+//     firebase.database().ref('/data').on('value', function(snapshot) {
+//       let itemarr=snapshotToArray(snapshot)
+//       let i=0
+//       for(i=0;i<itemarr.length;i++){
          
-          console.log(itemarr[i].name)
-      }
-  });
-  }
-  function snapshotToArray(snapshot) {
-    var returnArr = [];
+//           console.log(itemarr[i].name)
+//       }
+//   });
+//   }
+//   function snapshotToArray(snapshot) {
+//     var returnArr = [];
 
-    snapshot.forEach(function(childSnapshot) {
-        var item = childSnapshot.val();
-        item.key = childSnapshot.key;
+//     snapshot.forEach(function(childSnapshot) {
+//         var item = childSnapshot.val();
+//         item.key = childSnapshot.key;
 
-        returnArr.push(item);
-    });
+//         returnArr.push(item);
+//     });
 
-    return returnArr;
-};
+//     return returnArr;
+// };
