@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
+   
 }
-
+.landing-image{
+    width: 100%;
+    height: 30vh;
+    background: url('http://www.pccoepune.com/images/facilities/2.jpg');
+    background-size: cover
+}
+.conatiner{
+    transform: translateY(-15vh);
+}
 .list{
     padding-left: 2vw;
 
 }
+.content{
+
+    width: 60vw
+}
 img{
-    height: 5em
+    height: 12em
 }
 .submit{
     margin-top:10vh; 

@@ -3,6 +3,10 @@
     margin: 0;
     
 }
+.conatiner{
+    width: 100%;
+    text-align: center
+}
 .heading-form h1{
     font-size: 2.5em;
     text-align: center;
@@ -42,7 +46,8 @@
 
 }
 .address textarea{
-    
+    font-size: 0.7em;
+ 
 }
 .gender{
     text-align: center;
